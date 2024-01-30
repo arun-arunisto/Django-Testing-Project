@@ -19,5 +19,5 @@ class TestUrls(SimpleTestCase):
     # third url for detail
     def test_detail_url_is_resolved(self):
         url = reverse('detail', args=['some-slug']) #adding this because we need slug to run
-        print(resolve(url))
-        #self.assertEquals(resolve(url).func.view_class, ProjectCreateView, "Test Failed")
+        #print(resolve(url))
+        self.assertEquals(resolve(url).func, project_detail, "Test Failed")
