@@ -15,3 +15,13 @@
 ## <code>python manage.py test budget</code> - budget is an app name so please change by your app name
 
 ## if you have any doubts feel free to contact!!!
+
+## Updates on 31.01.2024
+
+1. Add new test for views
+2. Created a file named 'test_views.py' on tests folder
+3. And added unit tests for views option 
+4. And also slight change on views function that added a 'try' 'exception' block on 'DELETE' expense for it will not cause any error if the data not provides
+5. And on Project_Detail function there's three methods used 'POST', 'GET', 'DELETE' so we create different testing methods for these various methods.
+
+
