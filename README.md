@@ -27,5 +27,7 @@
 6. Add new test for models
 7. created a file named 'test_models.py' on tests folder
 8. And added test for models 
+9. Add new test for forms also
+10. Checking that form is_valid() with and without data
 
 
