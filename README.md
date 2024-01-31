@@ -5,6 +5,7 @@
 1. Testing urls
 2. Testing views
 3. Testing models
+4. Testing Forms
 
 ## 30.01.2024 - we just added test cases for url only other will be posted on the same repo on upcoming days, don't worry
 
@@ -23,5 +24,8 @@
 3. And added unit tests for views option 
 4. And also slight change on views function that added a 'try' 'exception' block on 'DELETE' expense for it will not cause any error if the data not provides
 5. And on Project_Detail function there's three methods used 'POST', 'GET', 'DELETE' so we create different testing methods for these various methods.
+6. Add new test for models
+7. created a file named 'test_models.py' on tests folder
+8. And added test for models 
 
 
